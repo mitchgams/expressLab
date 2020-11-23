@@ -1,1 +1,13 @@
-{"user":[{"id":0,"username":"ChickenVerts","firstname":"John","lastname":"Swanson","email":"carrotcake@gmail.com","passhash":"853ecc53b0ad7702bce62030bd908ab2","salt":"Jzx$31"},{"id":3,"username":"ed","firstname":"Mitch","lastname":"Gams","email":"Mitchgams@gmail.com","passhash":"ce9abb63c0e4f419350cc5ca9877dda6","salt":"1bcb31b4"},{"id":4,"username":"CarrotSauce","firstname":"Mitch","lastname":"Gams","email":"Mitchgams@gmail.com","passhash":"d67e0730cedeb5a175322ccd8e356488","salt":"987827d8"},{"id":5,"username":"CarrotSauce","firstname":"Mitch","lastname":"Gams","email":"Mitchgams@gmail.com","passhash":"3f652f70c04c6782845359389bd9f591","salt":"6a92f244"},{"id":6,"username":"CarrotSauce","firstname":"Mitch","lastname":"Gams","email":"ed@gmail.com","passhash":"9733c9a38e18c411c763e88ea9e1dd9d","salt":"fe8ff04d"}]}
+{
+    "user": [
+        {
+            "id": 0,
+            "username": "ChickenVerts",
+            "firstname": "John",
+            "lastname": "Swanson",
+            "email": "carrotcake@gmail.com",
+            "passhash": "853ecc53b0ad7702bce62030bd908ab2",
+            "salt": "Jzx$31"
+        }
+    ]
+}
