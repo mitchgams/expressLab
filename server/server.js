@@ -21,19 +21,20 @@ app.post('/sign-up', (req, res) => {
      * also didn't check if passwords match.
      * but salting and hashing works.
      */
-    let dataPath = path.join(__dirname, '../users.json');
+    const dataPath = path.join(__dirname, '../users.json');
     fs.readFile(dataPath, 'utf8', function (err, data) {
         try {
-            let salt = CryptoJS.lib.WordArray.random(21/6).toString();
+            const salt = CryptoJS.lib.WordArray.random(21/6).toString();
+            const { username, firstname, lastname, email, password1 } = req.body;
             console.log(req.body.firstname);
             data = (JSON.parse(data));
             data.user.push({
                 id: data.user[data.user.length-1].id+1,
-                username: req.body.username,
-                firstname: req.body.firstname,
-                lastname: req.body.lastname,
-                email: req.body.email,
-                passhash: CryptoJS.MD5(req.body.password1 + salt).toString(),
+                username: username,
+                firstname: firstname,
+                lastname: lastname,
+                email: email,
+                passhash: CryptoJS.MD5(password1 + salt).toString(),
                 salt: salt
             });
             console.log(data);

@@ -8,6 +8,24 @@
             "email": "carrotcake@gmail.com",
             "passhash": "853ecc53b0ad7702bce62030bd908ab2",
             "salt": "Jzx$31"
+        },
+        {
+            "id": 1,
+            "username": "CarrotSauce",
+            "firstname": "Mitch",
+            "lastname": "Gams",
+            "email": "ed@gmail.com",
+            "passhash": "c1fde08e5de0e9366b551da0ce077ae6",
+            "salt": "f0bff97a"
+        },
+        {
+            "id": 2,
+            "username": "CarrotSauces",
+            "firstname": "Mitch",
+            "lastname": "Gams",
+            "email": "ed@gmail.com",
+            "passhash": "133dbbe69706af678e3352e827265042",
+            "salt": "a371b060"
         }
     ]
 }
